@@ -1,4 +1,4 @@
 fun main(args:Array<String>) {
-    print("Hello Bulcsú!")
+    println("Hello Bulcsú!")
     print("Second line")
 }
