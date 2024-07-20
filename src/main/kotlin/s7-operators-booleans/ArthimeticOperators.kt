@@ -3,5 +3,7 @@ fun main(args:Array<String>) {
     println(result)
     println("Hi" + " John")
 
+    println(5 - 3)
+
 }
 
