@@ -11,5 +11,9 @@ fun main(args:Array<String>) {
 
     println(10 % 5)
 
+    var cats = 5
+    cats++
+    println("I now have $cats cats")
+
 }
 
