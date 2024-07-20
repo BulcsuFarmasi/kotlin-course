@@ -15,5 +15,8 @@ fun main(args:Array<String>) {
     cats++
     println("I now have $cats cats")
 
+    cats--
+    println("A cat passed away. I now have $cats cat")
+
 }
 
