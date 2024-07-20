@@ -18,5 +18,9 @@ fun main(args:Array<String>) {
     cats--
     println("A cat passed away. I now have $cats cat")
 
+    var dogs = 2
+
+    println("I have ${++dogs} dogs")
+    println("I have $dogs dogs")
 }
 
