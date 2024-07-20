@@ -6,10 +6,17 @@ fun main(args:Array<String>) {
 //
 //    println(result::class.java)
 
-    val a:Long = 28645826
-    val b: Float = 13.67F
+//    val a:Long = 28645826
+//    val b:Float = 13.67F
+//
+//    val result =  a / b
+//
+//    println(result::class.java)
 
-    val result =  a / b
+    val a:Float = 234.4F
+    val b = 34586.453
+
+    val result = a+b
 
     println(result::class.java)
 }
