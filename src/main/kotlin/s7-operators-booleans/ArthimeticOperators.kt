@@ -9,7 +9,7 @@ fun main(args:Array<String>) {
 
     println(5f / 2f)
 
-    println(7 % 5)
+    println(10 % 5)
 
 }
 
