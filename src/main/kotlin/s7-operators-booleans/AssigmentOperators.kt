@@ -1,6 +1,6 @@
 fun main(args:Array<String>) {
     val dozen = 12
-    var months = dozen
+    val months = dozen
     println(months)
 
     val userName = "Lucy"
