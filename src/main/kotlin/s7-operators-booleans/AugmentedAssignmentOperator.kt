@@ -4,4 +4,7 @@ fun main(args:Array<String>) {
     println(bikes)
     bikes += 3
     println(bikes)
+
+    bikes -= 4
+    println(bikes)
 }
