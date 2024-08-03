@@ -4,5 +4,8 @@ fun main(args:Array<String>) {
     println(isDay && isEvening)
 
     println(false || false)
+
+    val isNight = !isDay
+    println(isNight)
 }
 
