@@ -3,6 +3,6 @@ fun main(args:Array<String>) {
     val isEvening = true
     println(isDay && isEvening)
 
-    println(true || false)
+    println(false || false)
 }
 
