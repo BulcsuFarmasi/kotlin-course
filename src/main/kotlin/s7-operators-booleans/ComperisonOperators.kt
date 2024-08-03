@@ -7,4 +7,7 @@ fun main(args:Array<String>) {
     println(a < b)
     println(a >= b)
     println(a <= b)
+
+    println(a == b)
+    println(a != b)
 }
