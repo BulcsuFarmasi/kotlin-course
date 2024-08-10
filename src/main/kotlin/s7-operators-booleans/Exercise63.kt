@@ -6,7 +6,7 @@ fun main(args:Array<String>) {
     val amountInput = readlnOrNull() ?: "0"
     val amount = amountInput.toDouble()
 
-    val increasedAmount = amount *  1.055.pow(5)
+    val increasedAmount = amount *  1.055.pow(10)
 
     println("Your amount after interest is: $increasedAmount")
 }
