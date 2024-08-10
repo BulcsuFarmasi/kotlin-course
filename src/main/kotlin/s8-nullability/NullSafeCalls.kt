@@ -1,4 +1,4 @@
 fun main() {
-    var catName:String? = "Chonkers"
-    catName = null
+    var catName:String = "Chonkers"
+    // catName = null
 }
