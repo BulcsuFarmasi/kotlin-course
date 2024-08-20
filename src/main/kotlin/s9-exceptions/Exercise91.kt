@@ -19,5 +19,7 @@ fun main() {
     } catch (e:Exception) {
         println("Invalid quantity")
         e.printStackTrace()
+    } finally {
+        println("Tracation completed")
     }
 }
