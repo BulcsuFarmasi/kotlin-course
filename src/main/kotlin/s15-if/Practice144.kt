@@ -1,11 +1,16 @@
 fun main() {
-    println("Do you have the keys?")
+    println("Do you have the keys? (yes/no)")
     val input = readlnOrNull() ?: ""
-    val hasKeys = input.toBoolean()
+    var hasKeys = false
+
+    if (input == "yes") {
+        hasKeys = true
+    }
 
     if (hasKeys) {
         println("Start the car")
     } else {
         println("Cannot start the car without keys")
     }
+
 }
