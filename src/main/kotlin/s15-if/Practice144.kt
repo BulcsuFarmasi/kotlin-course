@@ -1,16 +1,30 @@
 fun main() {
-    println("Do you have the keys? (yes/no)")
-    val input = readlnOrNull() ?: ""
-    var hasKeys = false
+//    println("Do you have the keys? (yes/no)")
+//    val input = readlnOrNull() ?: ""
+//    var hasKeys = false
+//
+//    if (input == "yes") {
+//        hasKeys = true
+//    }
+//
+//    if (hasKeys) {
+//        println("Start the car")
+//    } else {
+//        println("Cannot start the car without keys")
+//    }
+    println("Please input the current hour (0-23)")
 
-    if (input == "yes") {
-        hasKeys = true
-    }
+    val input = readlnOrNull() ?: "0"
+    val hour = input.toInt()
 
-    if (hasKeys) {
-        println("Start the car")
+    if (hour < 12) {
+        println("It's $hour am")
     } else {
-        println("Cannot start the car without keys")
-    }
+        if (hour == 12) {
+            println("It's $hour pm")
+        } else {
+            println("It's ${hour - 12} pm")
+        }
 
+    }
 }
