@@ -17,7 +17,13 @@ fun setUpGame() {
     word = words[wordIndex].uppercase()
     println(word)
 
+    for (i in word.indices) {
+        guesses.add('_')
+    }
+
     printGameStatus()
+    println("Please enter a letter")
+
 
 }
 
@@ -31,6 +37,11 @@ fun printGameStatus() {
         5 -> print5Mistakes()
         6 -> print6Mistakes()
     }
+
+    print("Word: ")
+    for (element in guesses)
+        print("$element ")
+    println("\n You have $remainingGuesses guesses left")
 }
 
 fun printZeroMistakes() {
