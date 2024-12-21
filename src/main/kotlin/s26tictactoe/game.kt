@@ -93,3 +93,7 @@ fun checkWinner(player: Boolean): Boolean {
 
     return won
 }
+
+fun checkFullBoard() {
+
+}
