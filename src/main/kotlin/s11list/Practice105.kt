@@ -1,3 +1,5 @@
+package s11list
+
 fun main () {
     val animals = listOf("dog", "cat", "bat", "hippo")
 

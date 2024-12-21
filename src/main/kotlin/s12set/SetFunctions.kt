@@ -1,3 +1,5 @@
+package s12set
+
 fun main () {
     val numbers = setOf(3, 6, 4, null, 8)
 

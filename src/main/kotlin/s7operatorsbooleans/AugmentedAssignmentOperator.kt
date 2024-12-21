@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
     var bikes = 5
     bikes + 1

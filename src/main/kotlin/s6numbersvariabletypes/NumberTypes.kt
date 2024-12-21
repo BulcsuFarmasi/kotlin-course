@@ -1,3 +1,5 @@
+package s6numbersvariabletypes
+
 fun main(args:Array<String>) {
     var items = 5
     println(items::class.java)

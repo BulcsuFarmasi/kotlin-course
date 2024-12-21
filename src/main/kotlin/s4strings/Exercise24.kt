@@ -1,3 +1,5 @@
+package s4strings
+
 fun main(args: Array<String>) {
     val ears = "(\\(\\"
     val face = "(-.-)"

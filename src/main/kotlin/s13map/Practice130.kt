@@ -1,3 +1,5 @@
+package s13map
+
 fun main () {
     var count = hashMapOf(Pair(1, "un"), Pair(2, "deux"), Pair(3, "trois"))
 

@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
     val expr1 = 5.374 * 9.5847
     val expr2 = 3.237 * 15.3726

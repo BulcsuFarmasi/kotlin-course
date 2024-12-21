@@ -1,3 +1,5 @@
+package s15if
+
 fun main() {
 //    println("Input a boolean value. Is it night time?")
 //    val input = readLine()?:"true"

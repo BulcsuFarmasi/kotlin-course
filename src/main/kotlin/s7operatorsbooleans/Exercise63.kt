@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 import kotlin.math.pow
 
 fun main(args:Array<String>) {

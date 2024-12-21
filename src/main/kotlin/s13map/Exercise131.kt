@@ -1,3 +1,5 @@
+package s13map
+
 fun main() {
     val attendance = hashMapOf(Pair("23 Sept", 2837), Pair("24 Sept", 3726), Pair("25 Sept", 6253))
 

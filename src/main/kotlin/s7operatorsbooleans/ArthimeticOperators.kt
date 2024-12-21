@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
     val result = 5 + 2
     println(result)

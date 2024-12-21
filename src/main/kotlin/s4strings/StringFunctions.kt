@@ -1,3 +1,5 @@
+package s4strings
+
 import java.util.*
 
 fun main(args:Array<String>) {

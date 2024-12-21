@@ -1,3 +1,5 @@
+package s6numbersvariabletypes
+
 fun main(args:Array<String>) {
     var price = 34
     var items = 3

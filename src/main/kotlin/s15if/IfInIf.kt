@@ -1,3 +1,5 @@
+package s15if
+
 fun main() {
     val petStore = listOf("dog", "rabbit")
     val hasCatFood = false

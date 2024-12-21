@@ -1,3 +1,5 @@
+package s11list
+
 fun main() {
     val colors = arrayListOf("blue", "green")
     println(colors)

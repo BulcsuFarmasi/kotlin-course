@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
     // First exercise
 //    var a = 76.254

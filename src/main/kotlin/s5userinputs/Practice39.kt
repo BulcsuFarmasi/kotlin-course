@@ -1,3 +1,5 @@
+package s5userinputs
+
 fun main(args:Array<String>) {
     //println("What is your name?")
     // val userName = readLine()

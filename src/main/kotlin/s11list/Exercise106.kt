@@ -1,3 +1,5 @@
+package s11list
+
 fun main() {
     val items = arrayListOf("laptop", "mouse", "paper", "mug", "phone")
 

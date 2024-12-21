@@ -1,3 +1,6 @@
+package s6numbersvariabletypes
+
+
 fun main(args:Array<String>) {
     val cats = 3
     println(cats::class.java)

@@ -1,3 +1,5 @@
+package s15if
+
 fun main() {
     println("Please input the points")
     val input = readlnOrNull() ?: "0"

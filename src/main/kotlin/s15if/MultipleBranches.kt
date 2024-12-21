@@ -1,3 +1,5 @@
+package s15if
+
 fun main() {
     println("Please enter an animal")
     val animal = readlnOrNull() ?: "cat"

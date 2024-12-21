@@ -1,3 +1,5 @@
+package s6numbersvariabletypes
+
 fun main(args:Array<String>) {
     val var1 = 45
     println(var1)
