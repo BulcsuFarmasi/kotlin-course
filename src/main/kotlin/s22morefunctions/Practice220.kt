@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     println(sum(4, 8, 5, 2, 6, 43, 3, 5, 6))
     println(sum(8, 4, 76, 32, 2, 23, 56, 67))

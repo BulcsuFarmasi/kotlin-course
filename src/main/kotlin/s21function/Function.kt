@@ -1,3 +1,5 @@
+package s21function
+
 fun main() {
     for (i in 1..3) {
         sayHello()

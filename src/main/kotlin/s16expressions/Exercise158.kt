@@ -1,3 +1,5 @@
+package s16expressions
+
 fun main() {
     println("Please input your age")
     val input = readlnOrNull() ?: "0"

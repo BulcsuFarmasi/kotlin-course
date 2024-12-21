@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     val names = arrayListOf("Arthur", "Barry", "Bruce", "Joe", "Lois")
 

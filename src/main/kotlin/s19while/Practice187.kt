@@ -1,3 +1,5 @@
+package s19while
+
 fun main() {
 //    var finished = false
 //    do {

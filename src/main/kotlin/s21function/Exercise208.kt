@@ -1,3 +1,5 @@
+package s21function
+
 fun main() {
     println("Please enter an animal")
 

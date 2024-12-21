@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     awesomeBank(hashMapOf(Pair("Alice", 546.0), Pair("Bob", 345.0), Pair("Carol", 456.0)))
 }

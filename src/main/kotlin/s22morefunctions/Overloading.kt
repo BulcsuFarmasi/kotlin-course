@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     println(multiply(5))
     println(multiply(7, 9))

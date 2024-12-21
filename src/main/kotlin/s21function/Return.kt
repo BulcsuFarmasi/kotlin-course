@@ -1,3 +1,5 @@
+package s21function
+
 fun main() {
     val r = 63
     val area = calculateCircleArea(r)

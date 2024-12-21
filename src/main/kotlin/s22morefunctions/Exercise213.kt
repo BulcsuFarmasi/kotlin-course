@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     val products = mapOf(Pair("Milk", 3.67), Pair("Cheese", 10.5), Pair("Laptop", 1010.99))
 

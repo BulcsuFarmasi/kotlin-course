@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     val ints = listOf(23, 44, 92, 55, 66, 27, 913, 45, 34, 11)
 

@@ -1,3 +1,5 @@
+package s19while
+
 fun main() {
     val usernames = hashSetOf("john", "bob", "alice")
 

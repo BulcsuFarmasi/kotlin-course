@@ -1,3 +1,5 @@
+package s17when
+
 fun main() {
     println("Please input your name")
     val name = readlnOrNull() ?: ""

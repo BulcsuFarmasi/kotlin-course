@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     feedAnimal("cat")
     feedAnimal(setOf("dog", "bear", "shark"))
