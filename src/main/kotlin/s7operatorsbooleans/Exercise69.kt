@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
     val farmer = 1
     val animals = 3

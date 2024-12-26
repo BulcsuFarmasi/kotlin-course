@@ -1,3 +1,5 @@
+package s11list
+
 fun main () {
     val colors = listOf("blue", "red", "yellow")
 

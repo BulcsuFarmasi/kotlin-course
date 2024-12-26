@@ -1,3 +1,5 @@
+package s9exceptions
+
 fun main () {
     val test = readlnOrNull()
     try {

@@ -1,3 +1,5 @@
+package s7operatorsbooleans
+
 fun main(args:Array<String>) {
 //    val a:Short = 6
 //    val b:Int = 32

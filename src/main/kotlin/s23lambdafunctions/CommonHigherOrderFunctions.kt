@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     val clients = listOf("Anna", "Bob", "Carol", "Dan")
 

@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     val numbers = setOf(3, 456, 37, 67, 4, 567, 34, 4575)
 

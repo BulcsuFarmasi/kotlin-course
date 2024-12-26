@@ -1,3 +1,5 @@
+package s16expressions
+
 fun main() {
 //    val guestList = setOf("John", "Alice", "Bob", "Carol")
 //    println("Please enter your name")

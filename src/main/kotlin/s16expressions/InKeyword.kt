@@ -1,3 +1,5 @@
+package s16expressions
+
 fun main() {
     val favouritePet = "dog"
     val availablePets = listOf("dog", "cat", "horse")

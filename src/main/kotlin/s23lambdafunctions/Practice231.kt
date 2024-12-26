@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     val numbers = arrayListOf(3, 8, 6, 5, 435, 56, 34, 768, 45)
     println(numbers)

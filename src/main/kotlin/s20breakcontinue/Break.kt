@@ -1,3 +1,5 @@
+package s20breakcontinue
+
 fun main() {
     val onlyEvenNumbers = arrayListOf(2, 8, 4, 7, 6, 10)
     for (number in onlyEvenNumbers) {

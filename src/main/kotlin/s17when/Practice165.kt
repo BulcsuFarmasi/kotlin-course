@@ -1,3 +1,5 @@
+package s17when
+
 fun main() {
 //    println("How many meals do you have a day")
 //    val input = readLine()?:"3"

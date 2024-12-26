@@ -1,3 +1,5 @@
+package s12set
+
 fun main () {
     val numbers = hashSetOf(3,7,4, null)
 

@@ -1,3 +1,5 @@
+package s18for
+
 fun main() {
     println("What year is it?")
     val input = readlnOrNull() ?: "0"

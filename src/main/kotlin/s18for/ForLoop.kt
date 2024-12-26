@@ -1,3 +1,5 @@
+package s18for
+
 fun main() {
     val animals = arrayListOf("cat", "dog", "mouse", "bear")
     for (animal in animals) {

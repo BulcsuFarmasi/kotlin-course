@@ -1,3 +1,5 @@
+package s12set
+
 fun main (){
     val acceptedColors = hashSetOf("white", "black", "grey")
 

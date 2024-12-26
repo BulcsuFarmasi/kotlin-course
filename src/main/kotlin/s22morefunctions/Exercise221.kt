@@ -1,3 +1,5 @@
+package s22morefunctions
+
 fun main() {
     hello(4, "John", "Abraham", "Mike", "Oscar", "Carl")
 }

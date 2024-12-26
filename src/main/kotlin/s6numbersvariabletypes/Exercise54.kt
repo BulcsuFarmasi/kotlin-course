@@ -1,3 +1,5 @@
+package s6numbersvariabletypes
+
 fun main(args:Array<String>) {
     println("Please enter a number")
     val input = readlnOrNull() ?: "0"

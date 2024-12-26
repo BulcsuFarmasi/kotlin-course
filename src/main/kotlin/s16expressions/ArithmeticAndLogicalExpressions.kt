@@ -1,3 +1,5 @@
+package s16expressions
+
 fun main() {
     if (326 / 72 * 15 + 93 % 12 == 65) {
         println("Math is easy")

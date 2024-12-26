@@ -1,3 +1,5 @@
+package s13map
+
 fun main () {
     val count = hashMapOf(Pair(1, "one"), Pair(2, "two"), Pair(3, "three"))
 

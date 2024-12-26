@@ -1,3 +1,5 @@
+package s15if
+
 fun main() {
 //    println("Do you have the keys? (yes/no)")
 //    val input = readlnOrNull() ?: ""

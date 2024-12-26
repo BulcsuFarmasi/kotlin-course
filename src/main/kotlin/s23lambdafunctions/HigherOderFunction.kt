@@ -1,3 +1,5 @@
+package s23lambdafunctions
+
 fun main() {
     sayHello(arrayListOf("Alice", "Bob", "Carol", "Dan")) { name: String -> println("Hello there $name") }
 }

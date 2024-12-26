@@ -1,3 +1,6 @@
+package s5userinputs
+
+
 fun main(args:Array<String>) {
     println("Input a number")
     val userInput = readlnOrNull() ?: ""

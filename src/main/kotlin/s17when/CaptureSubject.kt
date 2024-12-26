@@ -1,3 +1,5 @@
+package s17when
+
 fun main() {
     val name = "Jean-Baptiste"
     when (val length = name.length) {

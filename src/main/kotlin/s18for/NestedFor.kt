@@ -1,3 +1,5 @@
+package s18for
+
 fun main() {
     val matrixSize = 9
     for (i in 0..matrixSize) {

@@ -1,3 +1,5 @@
+package s19while
+
 fun main() {
     println("Please enter a large integer")
     val input = readlnOrNull() ?: "0"

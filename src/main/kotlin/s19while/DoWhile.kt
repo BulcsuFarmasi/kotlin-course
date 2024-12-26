@@ -1,3 +1,5 @@
+package s19while
+
 fun main() {
     var puzzlePieces = 20
     var piecesPlaced = 0

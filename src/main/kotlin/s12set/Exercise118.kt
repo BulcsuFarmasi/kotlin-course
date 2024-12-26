@@ -1,3 +1,5 @@
+package s12set
+
 fun main () {
     val customers = hashSetOf("Alexandra", "Mary", "William", "Adrienne")
 

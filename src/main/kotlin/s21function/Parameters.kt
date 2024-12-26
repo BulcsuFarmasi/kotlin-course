@@ -1,3 +1,5 @@
+package s21function
+
 fun main() {
 //    double(5)
 //

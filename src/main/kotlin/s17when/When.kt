@@ -1,3 +1,5 @@
+package s17when
+
 fun main() {
     val animal = "kangaroo"
     var action = ""

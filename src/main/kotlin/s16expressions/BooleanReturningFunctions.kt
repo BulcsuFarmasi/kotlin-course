@@ -1,3 +1,5 @@
+package s16expressions
+
 fun main() {
 //    val animals = arrayListOf<String>()
 //    if (animals.isEmpty()) {
