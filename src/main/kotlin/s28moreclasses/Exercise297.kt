@@ -9,10 +9,8 @@ fun main() {
 
 class Book(val editor: Editor) {
     companion object {
-        fun getEditor(): Editor = Editor()
+        fun getEditor(): Editor = Editor("O'Reilly")
     }
 }
 
-class Editor {
-    val name = "John Smith"
-}
+class Editor(val name: String)
