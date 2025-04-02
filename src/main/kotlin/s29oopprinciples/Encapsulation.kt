@@ -5,9 +5,9 @@ fun main() {
 }
 
 open class Airplane {
-    private val type = "Airbus"
+    protected val type = "Airbus"
 
-    private fun fly() {
+    protected fun fly() {
         println("Flying")
     }
 }
