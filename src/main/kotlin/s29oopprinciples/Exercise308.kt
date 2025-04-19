@@ -1,21 +1,20 @@
 package s29oopprinciples
 
 fun main() {
-    val franchise = Franchise()
-    franchise.provideBurger()
+    val restaurant = Franchise()
+    restaurant.prepareBurgers()
 }
 
-class Franchise {
-    private val restaurant = OriginalRestaurant()
+class Franchise : OriginalRestaurant() {
 
-    fun provideBurger() {
-        val formula = restaurant.getFormula()
-        println("Providing")
+    fun prepareBurgers() {
+        println("Preparing burgers with the secret formula")
+        println(applyFormula())
     }
 }
 
-class OriginalRestaurant {
-    private val formula = "Formula"
+open class OriginalRestaurant {
 
-    fun getFormula(): String = formula
+
+    protected fun applyFormula(): String = "Preparing burgers with love and care"
 }
