@@ -1,22 +1,23 @@
 package s29oopprinciples
 
 fun main() {
-    val container = Bottle()
+    val container: Container = Bottle()
 
     container.pour()
-    container.fill()
 }
 
 abstract class Container {
-    fun pour() {
-        println("Pouring liquid")
-    }
+    abstract fun pour()
 }
 
 class Bottle : Container() {
-    fun fill() {
-        println("Filling bottle")
+    override fun pour() {
+        println("Pouring bottle")
     }
 }
 
-class Jug : Container()
+class Jug : Container() {
+    override fun pour() {
+        println("Pouring jug")
+    }
+}
