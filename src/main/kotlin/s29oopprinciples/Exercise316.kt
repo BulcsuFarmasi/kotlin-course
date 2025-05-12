@@ -2,8 +2,9 @@ package s29oopprinciples
 
 fun main() {
     val tv = TV()
-    tv.showSubtitles()
-    tv.showChannelInfo()
+    tv.showChannelInfo("Ch 3")
+    tv.showChannelInfo("Ch 3", true)
+    tv.showChannelInfo("Ch 3", false)
     tv.showPrograms()
     tv.showPrograms("11:00")
     tv.showPrograms("12:30")
@@ -13,12 +14,17 @@ fun main() {
 
 class TV {
 
-    fun showSubtitles() {
-        println("This is subtitle")
+
+    fun showChannelInfo(channelId: String) {
+        println("This is $channelId")
     }
 
-    fun showChannelInfo() {
-        println("This is Channel 3")
+    fun showChannelInfo(channelId: String, subtitles: Boolean) {
+        println("This is $channelId")
+        if (subtitles)
+            print("with subtitles")
+        else
+            print("without subtitles")
     }
 
     fun showPrograms() {
