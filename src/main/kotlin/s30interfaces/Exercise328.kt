@@ -1,25 +1,27 @@
 package s30interfaces
 
 fun main() {
-    var car = CarRental().getUtilityCar()
+    val carRental = CarRental()
+
+    var car = carRental.getUtilityCar()
     car.drive()
 
-    car = CarRental().getLimousine()
+    car = carRental.getLimousine()
     car.drive()
 }
 
-interface Auto {
+interface RentalCar {
     fun drive()
 }
 
-class UtilityCar : Auto {
+class UtilityCar : RentalCar {
     override fun drive() {
         println("Utility car drives you to the destination")
     }
 
 }
 
-class Limousine : Auto {
+class Limousine : RentalCar {
     override fun drive() {
         println("Limousine gets you to your destination in comfort")
     }
@@ -30,11 +32,11 @@ class CarRental {
     val priceForUtilityCar = 100
     val priceForLimousine = 500
 
-    fun getUtilityCar(): Auto {
+    fun getUtilityCar(): RentalCar {
         return UtilityCar()
     }
 
-    fun getLimousine(): Auto {
+    fun getLimousine(): RentalCar {
         return Limousine()
     }
 }
