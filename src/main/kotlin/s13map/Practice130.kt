@@ -6,7 +6,7 @@ fun main () {
     println("2 is in French is ${count[2]}")
     println("3 is in French is ${count[3]}")
 
-    count.put(4, "quatre")
+    count[4] = "quatre"
     println(count)
 
     val customers = hashMapOf(Pair("John", 1), Pair("Alice", 5), Pair("Bob", 3))
